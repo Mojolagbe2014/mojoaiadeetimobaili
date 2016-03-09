@@ -1,0 +1,18 @@
+/*CSS that removes conflicting styleson the template and jquery mobile theme */
+/* 
+    Created on : 30-Apr-2015, 07:47:44
+    Author     : Kaiste
+*/
+*{text-shadow: none;}
+.full-course-details{background-color: #000}
+p {line-height: 2.0;}
+#quotes {line-height: 1.0; text-align: center;}
+#quotes p,  #quotes a{font-size:11px; padding: 0px; margin: 0px; line-height: 1.5;}
+.page-footer-content{display: none}
+.landing-copyright{color:#FFFFFF}
+.hidden {display: none}
+#contact-page-header{color:#fff;}
+.company-color {background-color: blue;}
+#lodcpdform input { height: 38px;}
+#lodcpdform textarea { height: 120px;}
+.tap-dismiss-notification{padding:5px;margin:5px;border-radius: 5px;}

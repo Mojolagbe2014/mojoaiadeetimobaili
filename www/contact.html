@@ -1,0 +1,60 @@
+    <div data-role="page" data-dialog="true"  data-theme="j">
+        <div data-role="header" style="background-color: blue">
+            <h1 id="contact-page-header">Contact Us</h1>
+        </div>
+        <!-- Page Content-->
+        <div data-role="main" class="ui-content snap-content">
+            <div class="content">
+                <div class="">
+                    <h4>Send us an email!</h4>
+                    <div class="container no-bottom">
+                        <div class="contact-form no-bottom"> 
+                            <div class="formValidationError" id="contactMessageTextareaError"></div>
+                            <form action="#" method="POST" class="contactForm" id="contactForm" name="contactForm">
+                                <fieldset>
+                                    <div class="formFieldWrap">
+                                        <input type="text" style=" height: 10px;" name="contactNameField" value="" placeholder="Full Name" class="contactField" id="contactNameField" required/>
+                                    </div>
+                                    <div class="formFieldWrap">
+                                        <input type="email" style=" height: 10px;" placeholder="Email Address " name="contactEmailField" value="" class="contactField requiredEmailField" id="contactEmailField" required/>
+                                    </div>
+                                    <div class="formTextareaWrap">
+                                        <textarea name="contactMessageTextarea" class="contactTextarea" placeholder="Message" id="contactMessageTextarea" required></textarea>
+                                    </div>
+                                    <div class="one-half">
+                                        <a href="#" id="contactIadet" name="contactIadet" class="button button-green">Send</a>
+                                    </div>
+                                    <div class="one-half last-column">
+                                        <a href="#" data-rel="back" class="button button-red">Close</a>
+                                    </div>
+                                </fieldset>
+                            </form>       
+                        </div>
+                    </div>
+                </div>
+                <div class="decoration hide-if-responsive"></div>
+                <div class="one-half-responsive last-column">
+                    <div class="container no-bottom">
+                        <h4>Contact Information</h4>
+                        <p>
+                            <strong>Address</strong><br>
+                            <a href="geo:51.869426,0.266303" data-rel="external" data-ajax="false">25 Parsonage Road, Takeley, <br/>
+                                Essex, CM22 6RA, UK.</a>
+                        </p>
+                        <p>
+                            <strong>Contact Information:</strong><br>
+                            <a href="tel:+442032897720" class="contact-call"><i class="fa fa-phone"></i>Phone: + 4420 3289 7720</a>
+                            <a href="sms:+442032897720" class="contact-text"><i class="fa fa-comments"></i>Message: +4420 3289 7720</a>
+                            <a href="mailto:info@iadet.net" class="contact-mail"><i class="fa fa-envelope"></i>Email: info@iadet.net</a>
+                            <a href="https://twitter.com/IADETBlendedEdu" rel="external" class="contact-twitter"><i class="fa fa-twitter"></i> Twitter</a>
+                            <a href="https://www.facebook.com/iadetblendededucation" rel="external" class="contact-facebook"><i class="fa fa-facebook-f"></i> Facebook</a>
+                            <a href="https://plus.google.com/106890653952747125666/about" rel="external" class="contact-facebook"><i class="fa fa-google-plus"></i> Google Plus</a>
+                            <a href="https://www.youtube.com/channel/UCXR9vFJE1CgnebBctSN2VHQ" rel="external" class="contact-facebook"><i class="fa fa-youtube"></i> YouTube</a>
+                        </p>
+                    </div>            
+                </div>
+                <div class="decoration"></div>
+            </div>
+        </div>
+    </div>
+
